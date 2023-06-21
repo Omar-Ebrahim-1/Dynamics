@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.7)  15 JUN 2023 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.7)  16 JUN 2023 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -340,7 +340,7 @@ l.17     \newpage
 \tf@toc=\write4
 \openout4 = `Progress_Report.toc'.
 
- [2] (./Progress_Report.lof)
+ (./Progress_Report.lof)
 \tf@lof=\write5
 \openout5 = `Progress_Report.lof'.
 
@@ -348,29 +348,29 @@ l.17     \newpage
 \tf@lot=\write6
 \openout6 = `Progress_Report.lot'.
 
- [3] [4{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<sketch.jpeg, id=87, 1027.84pt x 726.715pt>
+ [2] [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]
+<sketch.jpeg, id=92, 1027.84pt x 726.715pt>
 File: sketch.jpeg Graphic file (type jpg)
 <use sketch.jpeg>
-Package pdftex.def Info: sketch.jpeg  used on input line 56.
+Package pdftex.def Info: sketch.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 312.00119pt x 220.59985pt.
  [5 <./sketch.jpeg>] [6] [7] [8] [9] (./Progress_Report.aux)
 Package rerunfilecheck Info: File `Progress_Report.out' has not changed.
-(rerunfilecheck)             Checksum: A3FF00A7C505749AC3C254D97E2F88E8;716.
+(rerunfilecheck)             Checksum: 86C4DB35E3148CFCA9B5BB5F2D1984AB;809.
  ) 
 Here is how much of TeX's memory you used:
- 12989 strings out of 476025
- 257147 string characters out of 5796533
+ 12991 strings out of 476025
+ 257167 string characters out of 5796533
  1855388 words of memory out of 5000000
- 33282 multiletter control sequences out of 15000+600000
+ 33283 multiletter control sequences out of 15000+600000
  519144 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,76p,261b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Progress_Report.pdf (10 pages, 150636 bytes).
+Output written on Progress_Report.pdf (10 pages, 151360 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
