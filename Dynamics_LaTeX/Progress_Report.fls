@@ -616,6 +616,11 @@ INPUT ./sketch.jpeg
 INPUT sketch.jpeg
 INPUT ./sketch.jpeg
 INPUT ./sketch.jpeg
+INPUT ./CAD.png
+INPUT ./CAD.png
+INPUT CAD.png
+INPUT ./CAD.png
+INPUT ./CAD.png
 INPUT ./Model.png
 INPUT ./Model.png
 INPUT Model.png

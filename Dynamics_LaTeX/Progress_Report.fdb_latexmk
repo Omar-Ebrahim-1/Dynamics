@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1687359191 "Progress_Report.tex" "Progress_Report.pdf" "Progress_Report" 1687359192 0
+["pdflatex"] 1687372962 "Progress_Report.tex" "Progress_Report.pdf" "Progress_Report" 1687372963 0
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1686002077 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1686002077 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1686002077 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -83,14 +83,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1686002077 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1686158657 4493604 868eb9f183785b6f5cdd229f8b5ca0e9 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1686158654 8204070 951d5068779f4fb29e17a2c1ac91249d ""
+  "CAD.png" 1687369232 28934 41cc8181d5bf754b459737ad9033b369 ""
   "Graphs.png" 1687315453 65432 7f71e54bbdcbd7fa28aeb077ade097f9 ""
   "Model.png" 1687315453 30714 39ef992d17047b222573b2853c1691a0 ""
   "Motion.png" 1687315453 225005 1c80fd597941bfa5ec5205907b2da679 ""
-  "Progress_Report.aux" 1687359192 2367 a40b9b665535b6dc82ca3b55c5fa9531 "pdflatex"
-  "Progress_Report.lof" 1687359192 395 c847a0df38e04c4c1a7b7c5ea29293ab "pdflatex"
-  "Progress_Report.out" 1687359192 809 86c4db35e3148cfca9b5bb5f2d1984ab "pdflatex"
-  "Progress_Report.tex" 1687359191 5902 910003b97b6713b27ddeed07ad96b90f ""
-  "Progress_Report.toc" 1687359192 610 cadf132ccadc29bd079ba2d1e691b0f3 "pdflatex"
+  "Progress_Report.aux" 1687372963 2573 84bf7eef38c60c53cba4e3e4cbea5b50 "pdflatex"
+  "Progress_Report.lof" 1687372963 494 cdfb8adaf528f607c3461ac21f56038b "pdflatex"
+  "Progress_Report.out" 1687372963 809 86c4db35e3148cfca9b5bb5f2d1984ab "pdflatex"
+  "Progress_Report.tex" 1687372961 7296 865e08ec5c5b14ad3ca304088af8b942 ""
+  "Progress_Report.toc" 1687372963 610 cadf132ccadc29bd079ba2d1e691b0f3 "pdflatex"
   "sketch.jpeg" 1686867767 57359 bfcf6ea9e61b67da255cc30447ff9baa ""
   (generated)
   "Progress_Report.aux"
