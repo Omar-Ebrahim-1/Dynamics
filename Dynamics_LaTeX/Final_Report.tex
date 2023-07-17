@@ -13,20 +13,122 @@ University of Windsor}
 
 \begin{document}
     \maketitle
-    \section{Summary}
+    \section{Abstract}
+    This final report provides an overview of the finalization of the project focused on the sketching, designing, and modeling of a trebuchet.\\[10pt]
+    The report outlines the key milestones achieved since the inception of the project, 
+    including build process, changes from the initial design, detailed component specifications, analytical-numerical-physical test results, and dicussion on test results.\\[10pt]
+    The report utilizes CAD, first principles, numerical simulations, and physical tests to achieve this goal.
     \newpage
-    \tableofcontents \newpage
-    \listoffigures \newpage
-    \listoftables \newpage
+    \tableofcontents
+    \listoffigures
+    \newpage
     \section{Introduction}
+    This report's mission statement is to summarize the team's final results with:
+    \begin{itemize}
+        \item Detailed CAD drawings.
+        \item Analytical Calculations.
+        \item Numerical modeling.
+        \item Real-life data.
+    \end{itemize}
+    The problem outline is to design and analyze the trebuchet to maximize
+    projectile distance and accuracy.\\[10pt]
+    The trebuchet is designed for maximum distance through general
+    plane motion.\footnote{Hibbeler, 2015}It is also designed for maximum 
+    accuracy through string measure.\footnote{Rhoten, 2021}\\[10pt]
+    To maximize distance, the velocity of the projectile is considered, as
+    distance and velocity are proportional. Increasing the counterweight 
+    fall distance can boost the projectile's velocity.\footnote{Siano, 2001}
+    Increasing the counterweight-to-launch distance increases the velocity 
+    of the projectile.\footnote{Denny, 2005}\\[10pt]
+    Lastly, adjusting the trebuchet firing angle to 
+    45 degrees achieves the maximum projectile distance.\footnote{Connel, 2001}
     \newpage
-    \section{Main}
+    \section{Methodology}
+    The team uses CATIA, a CAD software, to design components and present
+    them in detailed technical drawings.\\[10pt] 
+    Next, the team applies the principles of Kinematics and Kinetics to analyze the motion of the trebuchet. 
+    Through this analysis, they are able to make accurate estimations regarding the distance the projectiles will travel.\\[10pt]
+    The team also utilizes Working Model 2D, a CAE software, to numerically simulate the trebuchet's motion and provide numerical data for analyzing the impact of various factors on its performance.\\[10pt]
+    Finally, the team conducts real-life tests of the trebuchet to compare and contrast the actual results with their analytical and numerical predictions. They carefully analyze the variations between the expected and observed outcomes, discussing the factors that contribute to these differences.    
+    \newpage
+    \section{Design}
+    \subsection{CAD}
+    Figure \ref{CAD} showcases the CAD model of the Floating Arm Trebuchet. The design features a robust physical body. The counterweight is attachable to the middle axle, and the arm holds the sling and guide chute at the end. To enhance portability, wheels are attachable to the corners of the base, facilitating easy transportation of the trebuchet.\\
+    \begin{figure}[t]                                  
+    \centering
+    \includegraphics[width=0.8\textwidth]{CAD.png}
+    \caption{Floating Arm Trebuchet in CAD\label{CAD}}
+    \end{figure}
+    \newpage
+    \subsection{Technical Drawings}
+    \newpage
+    \section{Results}
+    \subsection{Analytical Calculations}
+    \newpage
+    \subsection{Numerical Model}
+    The Floating Arm Trebuchet implemented in Working Model 2D can be found 
+    in Figure \ref{model}. Additionally, a tracing of the trebuchet's motion 
+    can be found in Figure \ref{motion}. Tracing is a feature in Working 
+    Model 2D that shows each frame of the motion of an object.\\[10pt]
+    Lastly, position-velocity-acceleration graphs for both vertical and 
+    horizontal axes of the projectile are found in Figure \ref{graphs}.
+    The horizontal velocity of the ball increases linearly once the trebuchet fires
+    then stays constant (ignoring air resistance). Hence, the team predicts 
+    with this model that they can achieve around 30 meters of projectile
+    distance.
+
+    \begin{figure}[t]                                  
+    \centering
+    \includegraphics[width=0.7\textwidth]{Model.png}
+    \caption{Floating Arm Trebuchet model in Working Model 2D\label{model}}
+    \end{figure}
+
+\begin{figure}[b]
+    \begin{minipage}[t]{0.69\textwidth}
+        \vspace{12pt}
+        \begin{flushleft}
+            \includegraphics[width=\textwidth]{Graphs.png}
+        \end{flushleft}
+        \caption{P-V-A graph of ball\label{graphs}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.3\textwidth}
+        \vspace{50pt}
+        \begin{flushright}
+            \includegraphics[width=\textwidth]{Motion.png}
+        \end{flushright}
+        \caption{Motion of Trebuchet\label{motion}}
+    \end{minipage}
+    \end{figure}
+    \newpage
+    \subsection{Real-life Data}
+
+    \newpage
+    \section{Comparison of Results}
+    \newpage
+    \section{Discussion}
     \newpage
     \section{Conclusions}
+    The main objectives of this milestone were to create a blueprint for 
+    the construction of the final build.
+    The key findings are summarized as follows:
+    \begin{enumerate}
+        \item In order to maximize the distance traveled by the projectile, it is essential to optimize the projectile's velocity. 
+        \item General plane motion increases projectile velocity by harnessing the speed of the falling counterweight.    
+        \item Floating Arm Trebuchets consist of five main components: 
+            frame, arm, counterweight, sling, and guide chute.
+        \item The release of the projectile at a 45 degree angle achieves the 
+            maximum projectile distance.
+    \end{enumerate}
     \newpage
     \section{References}
-    \newpage
+        \hspace{15pt}Denny, M. (2005). Siege engine dynamics. European journal of physics, 26(4), 561.
 
-    \appendix
-    \section{Appendix Stuff}
+        Hibbeler, R. C. (2015). 16.5. In Engineering mechanics: Dynamics (pp. 346–348). essay, Pearson.
+        
+        James O'Connell; Dynamics of a medieval missile launcher: the trebuchet. The Physics Teacher 1 November 2001; 39 (8): 471–473.
+
+        Rhoten, R. P. (1999). The trebuchet: Accuracy analysis of a medieval siege engine. Volume 2: 19th Computers and Information in Engineering Conference.
+
+        Siano, D. B. (2001). Trebuchet Mechanics. The Algorithmic Beauty of the Trebuchet.
 \end{document}

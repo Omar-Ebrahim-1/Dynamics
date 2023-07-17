@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.6.7)  17 JUL 2023 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -335,36 +335,54 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17     \newpage
+l.21     \newpage
                   [1] (./Final_Report.toc)
 \tf@toc=\write4
 \openout4 = `Final_Report.toc'.
 
- [2] (./Final_Report.lof)
+ (./Final_Report.lof)
 \tf@lof=\write5
 \openout5 = `Final_Report.lof'.
 
- [3] (./Final_Report.lot)
-\tf@lot=\write6
-\openout6 = `Final_Report.lot'.
-
- [4] [5] [6] [7] [8] [9] (./Final_Report.aux)
+ [2] [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]
+<CAD.png, id=122, 673.76718pt x 499.8675pt>
+File: CAD.png Graphic file (type png)
+<use CAD.png>
+Package pdftex.def Info: CAD.png  used on input line 59.
+(pdftex.def)             Requested size: 312.00119pt x 231.47493pt.
+ [5 <./CAD.png>] [6] [7]
+<Model.png, id=141, 587.796pt x 274.626pt>
+File: Model.png Graphic file (type png)
+<use Model.png>
+Package pdftex.def Info: Model.png  used on input line 82.
+(pdftex.def)             Requested size: 272.99881pt x 127.5489pt.
+<Graphs.png, id=142, 937.101pt x 369.17924pt>
+File: Graphs.png Graphic file (type png)
+<use Graphs.png>
+Package pdftex.def Info: Graphs.png  used on input line 90.
+(pdftex.def)             Requested size: 269.10095pt x 106.01146pt.
+<Motion.png, id=143, 1011.78pt x 469.755pt>
+File: Motion.png Graphic file (type png)
+<use Motion.png>
+Package pdftex.def Info: Motion.png  used on input line 98.
+(pdftex.def)             Requested size: 117.00119pt x 54.31815pt.
+ [8 <./Model.png> <./Graphs.png> <./Motion.png>] [9] [10] [11] [12] [13] (./Final_Report.aux)
 Package rerunfilecheck Info: File `Final_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 30EA1AC3241654A143B0ED7A4CF89317;552.
+(rerunfilecheck)             Checksum: 41AD5BE487D6A6ED4A05F8F97B518B2C;1540.
  ) 
 Here is how much of TeX's memory you used:
- 12944 strings out of 476025
- 256521 string characters out of 5796533
- 1852388 words of memory out of 5000000
- 33257 multiletter control sequences out of 15000+600000
- 515161 words of font info for 42 fonts, out of 8000000 for 9000
+ 13028 strings out of 476025
+ 257460 string characters out of 5796533
+ 1856388 words of memory out of 5000000
+ 33306 multiletter control sequences out of 15000+600000
+ 519144 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,76p,258b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Final_Report.pdf (10 pages, 46375 bytes).
+ 75i,8n,76p,392b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Final_Report.pdf (14 pages, 401006 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
