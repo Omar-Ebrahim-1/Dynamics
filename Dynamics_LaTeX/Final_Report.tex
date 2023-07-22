@@ -64,6 +64,52 @@ University of Windsor}
     \newpage
     \section{Results}
     \subsection{Analytical Calculations}
+    \begin{figure}[b]                                  
+    \centering
+    \includegraphics[width=0.45\textwidth]{d1.jpeg}
+    \caption{Diagram\label{d1}}
+    \end{figure}
+    Before the team can begin to analyze the motion of the trebuchet, they must
+    first take some measurements. The team measures the length of the arm to be 
+    approximately $0.6$ m. The team uses two 355mL drink cans.
+    Therefore, the mass of the counterweight is $\frac{2*355}{1000} \approx 0.7$ kg.
+    The mass of the arm with the supporting wheels is $0.3$ kg.
+    Hence, the combined mass of the counterweight with the arm is 
+    $0.7 + 0.3 = 1$ kg. The team measured the radius
+    and height of the cans which were $0.066$ m and $0.12$ m respectively. See Figure \ref{d1}.\\[20pt]
+    Given: $m_{a} = 0.3$ kg, $m_{w} = 0.7$ kg, $m = 1$ kg, $l = h = 0.6$ m, $\theta = 45^\circ$
+    $r = 0.066$ m and $h_c = 0.12$ m\\
+    RTF: Max velocity of point C, $v_c$\\
+    Assumptions: Rigid bodies, no energy loss, starts from rest.\\[10pt]
+    To solve this problem, the team uses the General Work-Energy Equation:
+    $$T_1 + \Sigma U_{1-2} = T_2$$
+    Since, the trebuchet starts from rest, $T_1 = 0$. Now, to find $\Sigma U_{1-2}$,
+    $$\Sigma U_{1-2} = mgh = (1)(9.8)(0.6) = 5.88 \approx 5.9 \mathrm{J}$$
+    To find $T_2$, the team needs to find the equivalent mass moment of inertia $I_e$,
+    $$I_e = I_a + I_w$$
+    \newpage
+    \noindent The team assumes the arm to be a rod, and the counterweight to be a cylinder. Therefore,
+    \begin{align*}
+        I_e &= \frac{1}{12}m_al^2 + \frac{1}{12}m_w(3r^2 + h_c^2) \\
+        &= \frac{1}{12}(0.3)(0.6)^2 + \frac{1}{12}(0.7)\left(3(0.066)^2 + (0.12)^2\right) = 0.0106 \, \mathrm{kg} \cdot \mathrm{m}^2
+    \end{align*}
+    To find $T_2$ we need to relate $\omega$ with v, the team uses the kinematic equation for rotational motion,
+    $$v = \omega l;\; \omega = \frac{v}{l}$$
+    Substituting this into the kinetic energy equation,
+    \begin{align*}
+        T_2 &= \frac{1}{2}mv^2 + \frac{1}{2}I_e\left(\frac{v}{l}\right)^2 \\
+        &= \frac{1}{2}(1)v^2 + \frac{1}{2}(0.0106)\left(\frac{v}{0.6}\right)^2 \\
+        &= 0.5v^2 + 0.0147v^2 = 0.5147v^2
+    \end{align*}
+    Now, substituting $\Sigma U_{1-2}$ and $T_2$ into the General Work-Energy Equation,
+    $$5.9 = 0.5147v^2$$
+    $$v = v_e = 3.38 \, \mathrm{m/s};\; \omega = \frac{3.38}{0.6} = 5.63 \, \mathrm{rad/s}$$
+    Now, to find the velocity of point C, the team uses the kinematic equation for rotational motion assuming the distance from the equivalent center to point C is $0.5$ m,
+    $$v_c = v_e + \omega l_{c/e} = 3.38 + (5.63)(0.5) = 6.2 \, \mathrm{m/s}$$
+    Now, to find the range of the projectile, the team uses the parabolic motion equation assuming that the time right before the ball lands is 4 seconds,
+    $$v_c = \frac{ds}{dt};\; \displaystyle\int_{0}^{s}ds = \displaystyle\int_{0}^{4}6.2dt$$
+    \[ \boxed{s = 24.8 \, \mathrm{m}} \]
+    Therefore, the team predicts that the trebuchet will launch the projectile 24.8 meters.
     \newpage
     \subsection{Numerical Model}
     The Floating Arm Trebuchet implemented in Working Model 2D can be found 
@@ -74,7 +120,7 @@ University of Windsor}
     horizontal axes of the projectile are found in Figure \ref{graphs}.
     The horizontal velocity of the ball increases linearly once the trebuchet fires
     then stays constant (ignoring air resistance). Hence, the team predicts 
-    with this model that they can achieve around 30 meters of projectile
+    with this model that they can achieve around 20 meters of projectile
     distance.
 
     \begin{figure}[t]                                  
