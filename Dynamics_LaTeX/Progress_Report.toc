@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
-\contentsline {section}{\numberline {2}Introduction}{3}{section.2}%
-\contentsline {section}{\numberline {3}Methodology}{4}{section.3}%
-\contentsline {section}{\numberline {4}Results}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Sketch}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Design}{6}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Model}{7}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Conclusions}{8}{section.5}%
-\contentsline {section}{\numberline {6}References}{9}{section.6}%
