@@ -1,0 +1,12 @@
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+Milestone1_Draft_Generic.docx
+Requirements
+CAD
