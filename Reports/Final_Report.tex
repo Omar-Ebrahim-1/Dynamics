@@ -52,7 +52,6 @@ University of Windsor}
     Finally, the team conducts real-life tests of the trebuchet to compare and contrast the actual results with their analytical and numerical predictions. They carefully analyze the variations between the expected and observed outcomes, discussing the factors that contribute to these differences.    
     \newpage
     \section{Design}
-    \subsection{CAD}
     Figure \ref{CAD} showcases the CAD model of the Floating Arm Trebuchet. The design features a robust physical body. The counterweight is attachable to the middle axle, and the arm holds the sling and guide chute at the end. To enhance portability, wheels are attachable to the corners of the base, facilitating easy transportation of the trebuchet.\\
     \begin{figure}[t]                                  
     \centering
@@ -84,9 +83,7 @@ University of Windsor}
     components are shown in Figures \ref{60rod} and \ref{30rod}.\\[10pt]
     The technical drawings showcase the front, top, left, and isometric views of the components.
     The wooden rods are the same dimensions except their length, so the width and height 
-    of the rods are 3/4" 3/8" or 1.905 cm 0.9525 cm respectively.\\[10pt]
-    For attaching, the trebuchet uses glue and round 3/8"(0.9525 cm) diameter dowels of 24"(60.96 cm) in length 
-    as shown in Figure (Remember to place figure here).
+    of the rods are 3/4" 3/8" or 1.905 cm 0.9525 cm respectively.
     \newpage
     \section{Results}
     \subsection{Analytical Calculations}
@@ -141,13 +138,13 @@ University of Windsor}
     The Floating Arm Trebuchet implemented in Working Model 2D can be found 
     in Figure \ref{model}. Additionally, a tracing of the trebuchet's motion 
     can be found in Figure \ref{motion}. Tracing is a feature in Working 
-    Model 2D that shows each frame of the motion of an object.\\[10pt]
-    Lastly, position-velocity-acceleration graphs for both vertical and 
-    horizontal axes of the projectile are found in Figure \ref{graphs}.
-    The horizontal velocity of the ball increases linearly once the trebuchet fires
-    then stays constant (ignoring air resistance). Hence, the team predicts 
-    with this model that they can achieve around 20 meters of projectile
-    distance.
+    Model 2D that shows each frame of the motion of an object.\\[5pt]
+    The simulation creates a P-V-A graph as shown in Figure \ref{graphs}.
+    The parameters used in the simulation are as follows: $m_{w} = 0.7$ kg, $l_{arm} = h = 0.6$ m,
+    $\theta = 45^\circ$, and $r_{circle} = 0.066$ m. As shown in the graph, the ball's 
+    velocity is initially zero, decreases then increases to its maximum velocity at time $t = 1.5$ s.
+    The ball's position increases as it is launched until it reaches the ground after 4 seconds. By looking at the x direction graph at t = 4 s, 
+    the team predicts that the range of the projectile is approximately 24 meters.
 
     \begin{figure}[t]                                  
     \centering
@@ -174,23 +171,92 @@ University of Windsor}
     \end{figure}
     \newpage
     \subsection{Real-life Data}
-
+    \begin{figure}[b]                                  
+    \centering
+    \includegraphics[width=0.32\textwidth]{figures/table.png}
+    \caption{Data of 10 throws\label{table}}
+    \end{figure}
+    The team conducted a real-life experiment to test the range of the
+    trebuchet. The results can be found in Figure \ref{table}.\\[10pt]
+    The team uses the mean of the data to find the average range of the
+    that the projectile traveled. The mean is calculated as follows:
+    \begin{align*}
+        \bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i = \frac{2*5 + 5*6 + 7 + 8 + 9}{10} = 6.4  \, \mathrm{m}
+    \end{align*}
+    Hence, to find the efficiency of the trebuchet, the team uses the following equation:
+    \begin{align*}
+        \eta = \frac{\mathrm{Actual\;Range}}{\mathrm{Predicted\;Range}} = \frac{6.4}{24.8} = 0.258
+    \end{align*}
+    Therefore, the team concludes that the trebuchet is 25.8\% efficient.
     \newpage
     \section{Comparison of Results}
+    To compare the results of the analytical calculations, numerical model, and the real-life data the team uses this equation:
+    \begin{align*}
+        \mathrm{Percent\;Error} = \frac{\mathrm{Predicted\;Range} - \mathrm{Actual\;Range}}{\mathrm{Predicted\;Range}} * 100\%
+    \end{align*}
+    \subsection{Analytical/Numerical}
+    The team starts by comparing the analytical calculations and the numerical model. The team uses the following equation to find the percent error:
+    \begin{align*}
+        \mathrm{Percent\;Error} = \frac{24.8 - 24}{24.8} * 100\% = 3.226\%
+    \end{align*}
+    \subsection{Analytical/Real-life}
+    Now to find the percent error between the analytical calculations and the real-life data, the team uses the following equation:
+    \begin{align*}
+        \mathrm{Percent\;Error} = \frac{24.8 - 6.4}{24.8} * 100\% = 74.2\%
+    \end{align*}
+    \subsection{Numerical/Real-life}
+    Lastly to find the percent error between the numerical model and the real-life data, the team uses the following equation:
+    \begin{align*}
+        \mathrm{Percent\;Error} = \frac{24 - 6.4}{24} * 100\% = 73.3\%
+    \end{align*}
     \newpage
     \section{Discussion}
+    From the Comparison of Results section, the team concludes that the 
+    analytical calculations and numerical model are very similar because
+    they have a percent error of 3.226\%. This is because both the 
+    analytical calculations and numerical model use the same principles.
+    \subsection{Limitations}
+    The real-life data is very different from both the analytical calculations
+    and numerical model. This is because the real-life data is affected by
+    many factors such as wind, friction, and the release angle. These 
+    factors are not taken into account in the analytical calculations and
+    numerical model.\\[10pt]
+    These results don't discredit the analytical calculations and numerical
+    model because these calculations and models are based on the ideal
+    conditions.\\[10pt]
+    The analytical calculations and numerical model help the team to find 
+    the best case scenario for the trebuchet. The team can use this 
+    to make meaningful predictions about how the trebuchet will perform.
+    \subsection{Improvements}
+    The team can improve the design of the trebuchet by approaching the
+    ideal conditions. The team can do this by reducing the friction between
+    the projectile and the sling as well as increase the time of release.\\[10pt]
+    To deal with friction, the team can use a lubricant on key parts that 
+    are affected by friction. To increase the time of release, the team can
+    use a longer sling and tweak the trebuchet to release the projectile 
+    at 45 degrees.
     \newpage
     \section{Conclusions}
-    The main objectives of this milestone were to create a blueprint for 
-    the construction of the final build.
+    The main objectives of this milestone were to provide updated detailed
+    technical drawings, calculate the range of the projectile using 
+    analytical calculations and numerical models, compare the results,
+    and discuss the limitations and improvements of the design.\\[10pt]
     The key findings are summarized as follows:
     \begin{enumerate}
-        \item In order to maximize the distance traveled by the projectile, it is essential to optimize the projectile's velocity. 
-        \item General plane motion increases projectile velocity by harnessing the speed of the falling counterweight.    
-        \item Floating Arm Trebuchets consist of five main components: 
-            frame, arm, counterweight, sling, and guide chute.
-        \item The release of the projectile at a 45 degree angle achieves the 
-            maximum projectile distance.
+        \item To maximize distance, the velocity of the projectile should be
+        considered because the range of the projectile is proportional to
+        the velocity.
+        \item The analytical calculations and numerical model predictions are 
+        very similar. The analytical calculations predict that the projectile
+        will travel 24.8 meters while the numerical model predicts that the
+        projectile will travel 24 meters.
+        \item The average range of the projectile in the real-life experiment
+        is 6.4 meters. This is very different from the analytical calculations
+        and numerical model. This is because the real-life experiment is
+        affected by many factors such as wind, friction, and the release angle.
+        \item To improve the design of the trebuchet, the trebuchet
+        should be tweaked to approach the ideal conditions. This can be done
+        by reducing friction and increasing the time of release.
     \end{enumerate}
     \newpage
     \section{References}
